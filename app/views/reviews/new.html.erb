@@ -1,0 +1,16 @@
+<%= simple_form_for [ @restaurant, @review ] do |f| %>
+  <%= f.input :content %>
+  <%= f.number_field :rating, in: 0..5, step: 1%>
+  <br><br>
+  <%= f.submit %>
+<% end %>
+
+<!-- <form action="/restaurants/5/reviews">
+</form> -->
+
+<!-- # <%= form_for [ @restaurant, @review ] do |f| %>
+#   <%= f.label :content %>
+#   <%= f.text_field :content %>
+#   <%= f.submit %>
+# <% end %>
+ -->

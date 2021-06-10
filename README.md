@@ -1,5 +1,5 @@
 # README
-Desmond Ip
+Le Wagon Rails Yelp exercise - Archived
 
-Le Wagon Rails Yelp exercise.
+Desmond
 
